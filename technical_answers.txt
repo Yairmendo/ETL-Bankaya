@@ -1,0 +1,79 @@
+Technical Questions
+1.- What is Data Engineering?
+
+Data engineering is the complex task of making raw data usable to data scientists and groups within an organization. Data engineering encompasses numerous specialties of data science.
+
+In addition to making data accessible, data engineers create raw data analyses to provide predictive models and show trends for the short- and long-term. Without data engineering, it would be impossible to make sense of the huge amounts of data that are available to businesses.
+
+
+2.- What are the main responsibilities of a Data Engineer?
+
+Data engineer is in charge of taking all the data that exists and refining it so that it can be used in the most practical and efficient way,
+We could give the example of an oil refinery, where oil is our raw material without processing or refining and when it goes through the refining and storage process  it can be used for
+incredible things like in the transportation industry, power generation etc. Since by itself it does not generate value.
+These uses are found by data scientists and business analysts and some times also data engineers.
+
+
+3.- Explain ETL
+
+A process to extract data, transform it and save it in an efficient, practical and ready-to-use way
+
+4.- How you build a Data Pipeline?. Feel free to explain an fictional example.
+
+There are four key phases of the data pipeline that data engineering directly deals with:
+
+Ingestion - This is the task of gathering data. Depending on the number of data sources, , this task can be focused or large-scale.
+Processing - During this phase, ingested data is sorted to achieve a specific set of data to analyze.  For large data sets, this is commonly done using a distributed computing platform for scalability.
+Storing - This takes the results of the processing and saves the data for fast and easy retrieval. The effectiveness of this phase relies on a sound database management system - which can be on premise or in the cloud
+Access - Once in place, the data is available to users with access.
+
+5.- In a RDBMS Joins are your friends.  Explain Why.
+
+They allow you to create relations between the data and with that generate value to the business
+
+6.- What are the main features of a production pipeline.
+
+Build Automation (Continuous Integration): Build automation, also referred to as Continuous Integration or CI for short, are automated steps within development designed for continuous integration – the compilation, building, and merging of new code.
+Test Automation: Test automation relies on the creation of custom-written tests that are automatically triggered throughout a deployment pipeline and work to verify new compiled code against your organization’s predetermined acceptance criteria.
+Deploy Automation (Continuous Deployment/Delivery): Like continuous integration, deploy automation with Continuous Deployment/Delivery (CD for short) helps expedite code delivery by automating the process of releasing code to a shared repository, and then automatically deploying the updates to a development or production environment.
+
+7.- How do you monitor this data pipelines?
+
+Latency—The time it takes for your service to fulfill a request
+
+Traffic—How much demand is directed at your service
+
+Errors—The rate at which your service fails
+
+Saturation—A measure of how close to fully utilized the service’s resources are
+
+8.- Give us a situation where you decide to use a NoSQL database instead of a relational database. Why did you do so?
+
+Applications with very dynamic models.  
+
+For example:
+
+Personalization, recommendations and customer experience
+Internet of things (IoT) and sensor data
+Financial services and payments
+Messaging
+Logistics and asset management
+Content management systems
+Digital and media management
+
+SQL requires you to use predefined schemas to determine the structure of your data before you work with it. Also all of your data must follow the same structure. This can require significant up-front preparation which means that a change in the structure would be both difficult and disruptive to your whole system. 
+A NoSQL database has dynamic schema for unstructured data. Data is stored in many ways which means it can be document-oriented, column-oriented, graph-based or organized as a KeyValue store. This flexibility means that documents can be created without having defined structure first. Also each document can have its own unique structure. The syntax varies from database to database, and you can add fields as you go. 
+
+9.- What are the non technical soft skills that are most valuable for data engineers?
+
+effective communication, collaboration, adaptability and business acumen
+
+10.- Suponse you have to design an Anomaly Detection Solution for a client in real or near real time. A platform for anomaly detection is about finding patterns of interest (outliers, exceptions, peculiarities, etc.) that deviate from expected behavior within dataset(s). Given this definition, it’s worth noting that anomaly detection is, therefore, very similar to noise removal and novelty detection. Though patterns detected with anomaly detection are actually of interest, noise detection can be slightly different because the sole purpose of detection is removing those anomalies - or noise - from data.
+Which technologies do you apply for real time ingestion and stream for an anomaly detection system? Diagram the solution in AWS or GCP Infrastructure.
+
+
+11.- Differences between OLAP and OLTP Systems.
+
+Online Analytical Processing (OLAP) is a category of software tools that analyze data stored in a database whereas Online transaction processing (OLTP) supports transaction-oriented applications in a 3-tier architecture.
+OLAP creates a single platform for all type of business analysis needs which includes planning, budgeting, forecasting, and analysis while OLTP is useful to administer day to day transactions of an organization.
+OLAP is characterized by a large volume of data while OLTP is characterized by large numbers of short online transactions.
